@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "anonymous_chat",
+    "slug": "anonymous_chat",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "anonymous_chat"
+}
