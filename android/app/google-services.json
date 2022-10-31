@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181118097014",
+    "project_id": "teen-anonymous",
+    "storage_bucket": "teen-anonymous.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181118097014:android:60fc0b8895cf4534e6f157",
+        "android_client_info": {
+          "package_name": "com.anonymous_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181118097014-9gun6j20glqnjgb7fnola4b2hq7uhpni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLv5bMmx7XWkttl8KhtzDvFqQsBnlzJ5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181118097014-9gun6j20glqnjgb7fnola4b2hq7uhpni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
