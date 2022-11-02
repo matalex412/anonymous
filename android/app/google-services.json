@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:181118097014:android:60fc0b8895cf4534e6f157",
+        "mobilesdk_app_id": "1:181118097014:android:837cd9a801936e85e6f157",
         "android_client_info": {
-          "package_name": "com.anonymous_chat"
+          "package_name": "com.anonymouschat"
         }
       },
       "oauth_client": [
