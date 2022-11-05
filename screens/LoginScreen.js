@@ -16,8 +16,8 @@ import { updateTopics } from "./../redux/actions";
 
 export default class LoginScreen extends React.Component {
 	state = {
-		email: "",
-		password: "",
+		email: "matalex412@gmail.com",
+		password: "Matthew123",
 		errorMessage: null,
 		isLoading: false,
 		isPasswordHidden: true,
@@ -35,7 +35,7 @@ export default class LoginScreen extends React.Component {
 				);
 
 				// await store.dispatch(updateTopics({ loggedIn: true }));
-				this.props.navigation.navigate("Chat");
+				this.props.navigation.navigate("Home");
 			} catch (error) {
 				// create error message
 				var message;
@@ -78,13 +78,13 @@ export default class LoginScreen extends React.Component {
 	render() {
 		return (
 			<View style={styles.container}>
-				<Text style={styles.title}>Admin Login</Text>
+				<Text style={styles.title}>Helper Login</Text>
 				<View style={styles.subContainer}>
 					<View style={styles.row}>
 						<MaterialCommunityIcons
 							name="email"
 							size={25}
-							color="#307991"
+							color="#000"
 						/>
 						<TextInput
 							style={styles.textInput}
@@ -99,7 +99,7 @@ export default class LoginScreen extends React.Component {
 						<MaterialCommunityIcons
 							name="lock"
 							size={25}
-							color="#307991"
+							color="#000"
 						/>
 						<TextInput
 							secureTextEntry={this.state.isPasswordHidden}
@@ -127,7 +127,7 @@ export default class LoginScreen extends React.Component {
 										: "eye-off"
 								}
 								size={25}
-								color="#307991"
+								color="#000"
 							/>
 						</TouchableOpacity>
 					</View>
@@ -140,7 +140,7 @@ export default class LoginScreen extends React.Component {
 						</TouchableOpacity>
 					) : (
 						<View style={styles.submitButton}>
-							<ActivityIndicator color="#000" />
+							<ActivityIndicator color="#fff" />
 						</View>
 					)}
 				</View>
@@ -211,6 +211,6 @@ const styles = StyleSheet.create({
 		marginTop: 10,
 		borderRadius: 2,
 		elevation: 1,
-		backgroundColor: "#307991",
+		backgroundColor: "#000",
 	},
 });

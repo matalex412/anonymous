@@ -3,7 +3,7 @@ import { UPDATE_APP_DATA } from "./actions";
 
 const appDataReducer = (
   state = {
-    authKey: "",
+    anonID: "",
   },
   action
 ) => {
